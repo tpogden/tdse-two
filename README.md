@@ -1,3 +1,3 @@
-# Time-Dependent Schr�dinger Equation Solver for a Two-Level Atom
+﻿# Time-Dependent Schrödinger Equation Solver for a Two-Level Atom
 
 ## Tests
