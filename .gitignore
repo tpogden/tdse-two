@@ -1,2 +1,8 @@
 # Mac crap
 .DS_Store
+
+# Matlab
+.mat
+
+# Results
+.csv

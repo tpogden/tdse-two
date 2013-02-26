@@ -1,5 +1,5 @@
 % tdse_two_pulse_test_b
-% Tests:    pi/2 pulse, no detuning
+% Tests:    2pi pulse, detuning
 %
 % Author:   T P Ogden <t.p.ogden@durham.ac.uk>
 
@@ -8,14 +8,14 @@
 clear;
 
 p.Omega_21 = 10; % Rabi frequency [2pi MHz]
-p.Delta_21 = 0; % Detuning [2pi MHz]
+p.Delta_21 = 5; % Detuning [2pi MHz]
 
-pulse_in_pi = 1/2; % [] e.g. 1 for pi-pulse, 1/2 for pi/2-pulse.
+pulse_in_pi = 4; % [] e.g. 1 for pi-pulse, 1/2 for pi/2-pulse.
 p.pulse_duration = pulse_in_pi*pi/p.Omega_21; % [µs]
 
 p.init_pop = [1;0]; % initial populations of the states
 
-p.duration = 8*p.pulse_duration; % [µs] duration to be solved
+p.duration = 2*p.pulse_duration; % [µs] duration to be solved
 
 %% Solve for pulse
 tic;
