@@ -10,7 +10,7 @@ Define the Rabi frequency, detuning and pulse duration of the laser and the init
 
 ## How do I use it?
 
-Open the folder in Matlab and run a test, e.g.
+Open `tdse-two` in Matlab and run a test, e.g.
 
     >> tdse_two_pulse_test_a
 	
