@@ -1,7 +1,5 @@
 % tdse_two_pulse_test_a
 % Tests:    2pi pulse, no detuning
-%
-% Author:   T P Ogden <t.p.ogden@durham.ac.uk>
 
 %% Parameters
 
@@ -25,6 +23,6 @@ toc;
 %% Plotting
 
 fig_1 = figure; plot(t/pi,phi.*conj(phi)); axis([t(1)/pi t(end)/pi -0.1 1.1]);
-xlabel('t (\pi µs)'), ylabel('|c|^2'), title(['Population of states |1\rangle, |2\rangle vs time'])
+xlabel('t (\pi µs)'), ylabel('|c|^2'), title(mfilename, 'interpreter', 'none');
 
-csvwrite('csv/tdse_pulse_test_a_pop.csv',[t/pi phi.*conj(phi)]);
+csvwrite(['csv/' mfilename '.csv'],[t/pi phi.*conj(phi)]);

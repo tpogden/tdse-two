@@ -8,9 +8,7 @@ function [t,phi] = tdse_two_pulse(p_in)
 %           p_in.duration       num         [µs] Duration of the solution
 %           
 % Out:      t                   num(1,:)    [µs] Time vector 
-%           phi                 num(2,:)    [] Wavefunction in two-state basis 
-%
-% Author:   T P Ogden <t.p.ogden@durham.ac.uk>
+%           phi                 num(2,:)    [] Wavefunction in two-state basis
  
 %% Rabi frequency and detuning as functions of time
 

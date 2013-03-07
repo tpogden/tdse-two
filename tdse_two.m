@@ -8,8 +8,6 @@ function [dphi_dt] = tdse_two(t,phi,p)
 %           
 % Out:      dphi_dt         num(1,4)    TDSE solution vector
 %
-% Author:   T P Ogden <t.p.ogden@durham.ac.uk>
-%
 % Notes:    Models  equations for two-level system, with functions
 %           of time for Rabi frequency and detuning. See tdse_two_pulse for examples of use.
 %

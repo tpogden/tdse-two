@@ -1,6 +1,6 @@
-﻿# Time-Dependent Schrödinger Equation Solver for Light Interacting with a Two-Level Atom
+﻿# TDSE Two
 
-by T P Ogden <t.p.ogden@durham.ac.uk>
+by Tommy Ogden <<t.p.ogden@durham.ac.uk>>
 
 ## What is this?
 
